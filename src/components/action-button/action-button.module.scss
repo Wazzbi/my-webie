@@ -1,0 +1,16 @@
+.action_btn {
+  width: fit-content;
+  margin-bottom: 15px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 18px;
+  outline: none;
+  cursor: pointer;
+
+  -webkit-box-shadow: 2px 5px 10px 0px #00000078,
+    5px 5px 11px 5px rgba(0, 0, 0, 0);
+  box-shadow: 2px 5px 10px 0px #00000078, 5px 5px 11px 5px rgba(0, 0, 0, 0);
+}

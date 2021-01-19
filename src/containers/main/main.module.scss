@@ -1,0 +1,63 @@
+.title_box {
+  position: absolute;
+  left: 5vw;
+  top: 10vh;
+}
+
+.bubble_text {
+  font-size: 32px;
+  font-weight: 700;
+  color: black;
+}
+
+.bubble_text_big {
+  font-size: 100px;
+  font-weight: 700;
+  color: black;
+}
+
+.bubble_text_emoji_big {
+  width: 75px;
+  height: auto;
+  vertical-align: baseline;
+}
+
+.bubble_text_box {
+  height: 80%;
+  width: 100%;
+
+  box-sizing: border-box;
+  padding: 60px 40px;
+}
+
+.bubble_first {
+  position: absolute;
+  right: 10vw;
+  top: 15vh;
+}
+
+.bubble_second {
+  position: absolute;
+  left: 10vw;
+
+  @media only screen and (max-height: 800px) {
+    top: 35vh;
+  }
+
+  @media only screen and (min-height: 801px) {
+    top: 45vh;
+  }
+}
+
+.action_buttons {
+  position: absolute;
+  right: 5vw;
+
+  @media only screen and (max-height: 800px) {
+    top: 60vh;
+  }
+
+  @media only screen and (min-height: 801px) {
+    top: 70vh;
+  }
+}
