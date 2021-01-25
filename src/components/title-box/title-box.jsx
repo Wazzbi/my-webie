@@ -8,7 +8,7 @@ class TitleBox extends Component {
     return (
       <>
         <h1
-          className={`uk-heading-medium uk-text-bold uk-text-secondary ${styles.shadow}`}
+          className={`uk-heading-medium uk-text-bold uk-text-secondary ${styles.bounce_in_top} ${styles.shadow}`}
           style={{ marginBottom: "0" }}
         >
           David

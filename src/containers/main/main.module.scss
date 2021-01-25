@@ -28,6 +28,8 @@
 
   box-sizing: border-box;
   padding: 60px 40px;
+
+  transition: all 0.75s ease-out;
 }
 
 .bubble_first {
@@ -41,7 +43,7 @@
   left: 10vw;
 
   @media only screen and (max-height: 800px) {
-    top: 35vh;
+    top: 300px;
   }
 
   @media only screen and (min-height: 801px) {
@@ -54,10 +56,15 @@
   right: 5vw;
 
   @media only screen and (max-height: 800px) {
-    top: 60vh;
+    top: 430px;
   }
 
   @media only screen and (min-height: 801px) {
     top: 70vh;
   }
+}
+
+.anime {
+  perspective: 1000px;
+  transform-style: preserve-3d;
 }

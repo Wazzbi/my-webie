@@ -9,6 +9,18 @@
   font-size: 18px;
   outline: none;
   cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+
+  &:hover {
+    background-color: rgb(36, 49, 238);
+    transform: scale(1.1);
+  }
+
+  &:active {
+    -webkit-box-shadow: 2px 5px 5px 0px #00000078,
+      5px 5px 6px 5px rgba(0, 0, 0, 0);
+    box-shadow: 2px 5px 5px 0px #00000078, 5px 5px 6px 5px rgba(0, 0, 0, 0);
+  }
 
   -webkit-box-shadow: 2px 5px 10px 0px #00000078,
     5px 5px 11px 5px rgba(0, 0, 0, 0);
